@@ -20,3 +20,6 @@
 
 ### Links:
 - [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
+
+### My Notes:
+- [Data Structures Overview](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/data-structures.md)
