@@ -1,6 +1,4 @@
-# The "Gist" of Computer Science
-
-## This is a small repository of information I found helpful along my journey to become the best engineer I can be. ✨
+# This is a small repository of information I found helpful along my journey to become the best engineer I can be. ✨
 
 ### Because I don't necessarily come from a computer science background, I became determined to try to fill the gaps where I can.  This list will grow/evolve as I get more in depth into the topics that interest me, but should hopefully serve as a good starting point for those (like me) who feel lost on where to even begin with the whole, "computer sciencey" thing.
 
