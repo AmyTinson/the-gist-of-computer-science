@@ -21,3 +21,4 @@
 
 ### My Notes:
 - [Data Structures Overview](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/data-structures.md)
+- [Memory Overview](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/memory.md)
