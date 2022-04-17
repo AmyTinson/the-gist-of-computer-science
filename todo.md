@@ -1,0 +1,10 @@
+- Add optimization videos
+- Add logarithms
+- Add arrays
+- Add linked lists
+- Add hash tables
+- Add stacks and queues
+- Add strings
+- Add graphs
+- Add trees
+- Add link to leetcode/algo solutions repo
