@@ -31,4 +31,70 @@ Generally speaking, you:
 2. Take out the coefficient
 
 ### Some examples:
-#### Linear Time:
+Linear Time:
+<br></br>
+Let's say we have the following variables:
+```
+T = Time
+a = constant
+b = constant
+n = input
+```
+Now if we look at this equation: *T = an + b*
+<br></br>
+We can identify the fastest growing term is *n*.  This is because *a* and *b* are constants, and never change.  So the only thing that *can* grow is *n*.
+<br></br>
+If we take out the coefficients, we end up with: *T = ~~a~~n+~~b~~*.  That simplifies to *T = n* or (in Big O Notation) *T = O(n)*
+___
+Constant Time:
+<br></br>
+Let's say we have the following variables:
+```
+T = Time
+a = constant
+```
+Now if we look at this equation: *T = a*
+<br></br>
+In this case, a never changes.  There is no growing term.
+<br></br>
+Because of this, it simplifies to *T = 1* or (in Big O Notation) *T = O(1)*
+___
+Quadratic Time:
+<br></br>
+Let's say we have the following variables:
+```
+T = Time
+a = constant
+b = constant
+c = constant
+n = input
+```
+Now if we look at this equation: *T = an<sup>2</sup> + bn + c*
+<br></br>
+We can identify the fastest growing term is *n<sup>2</sup>*.  This is because *a*, *b*, and *c* are constants, and never change.  *n* grows less quickly than *n<sup>2</sup>*.
+<br></br>
+If we take out the coefficients, we end up with: *T = ~~a~~n<sup>2</sup>+~~bn~~+~~c~~*.  That simplifies to *T = n<sup>2</sup>* or (in Big O Notation) *T = n<sup>2</sup>*
+___
+A small side note: If there is more than one input, you would keep both in Big O Notation.  For example:
+```
+T = Time
+n = input #1
+m = input #2
+y = constant
+```
+If we look at this equation: *T = m<sup>2</sup> + m + n + y*.  If we take out the coefficients, we end up with: *T = m<sup>2</sup> + ~~m~~ + n + ~~y~~*.  This would simplify to *T = m<sup>2</sup> + n* or (in Big O Notation) *T = O(m<sup>2</sup> + n)*
+
+## Rankings/Most Common Complexities (Best to Worst):
+O(1)
+<br></br>
+O(log(n))
+<br></br>
+O(n)
+<br></br>
+O(n log(n))
+<br></br>
+O(n<sup>2</sup>), O(n<sup>3</sup>), O(n<sup>4</sup>)...
+<br></br>
+O(2<sup>n</sup>)
+<br></br>
+O(n!)
