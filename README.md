@@ -22,3 +22,4 @@
 ### My Notes:
 - [Data Structures Overview](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/data-structures.md)
 - [Memory Overview](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/memory.md)
+- [Big O Notation](https://github.com/AmyTinson/the-gist-of-computer-science/blob/main/big%20o%20notation.md)
