@@ -8,3 +8,4 @@
 - Add graphs
 - Add trees
 - Add link to leetcode/algo solutions repo
+- Make collapsable sections?
